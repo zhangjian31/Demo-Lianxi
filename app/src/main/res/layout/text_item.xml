@@ -7,10 +7,10 @@
     tools:context="test.yixia.com.testapplication.MainActivity">
 
     <TextView
-        android:id="@+id/header"
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#30f23321"
+        android:background="#30023f21"
         android:gravity="center"
-        android:text="header" />
+        android:text="text" />
 </RelativeLayout>

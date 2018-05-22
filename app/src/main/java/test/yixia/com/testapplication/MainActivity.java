@@ -7,15 +7,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import test.yixia.com.testapplication.recycler.ManageAddressFragment;
+import test.yixia.com.testapplication.recycler2.BookFragment;
 
 public class MainActivity extends AppCompatActivity {
+    Fragment fragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Fragment fragment = new ManageAddressFragment();
+//        fragment = new ManageAddressFragment();
+        fragment = new BookFragment();
         showFragment(fragment);
     }
 

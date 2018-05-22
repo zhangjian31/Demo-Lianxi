@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context="test.yixia.com.testapplication.MainActivity">
 
-    <FrameLayout
-        android:id="@+id/container"
+    <TextView
+        android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World!" />
+        android:layout_height="50dp"
+        android:background="#30f23321"
+        android:gravity="center"
+        android:text="header" />
 </RelativeLayout>
